@@ -22,6 +22,13 @@ function foogallery_tc_import_gallery( $gallery_data, $attachment_mappings ) {
 
 	if ( !is_wp_error( $gallery_id ) ) {
 
+		if ( $imported ) {
+			//save the gallery to options so we can delete easily it later
+			$imported_galleries                = get_option( 'foogallery_tc_galleries', array() );
+			$imported_galleries[ $gallery_id ] = $gallery_id;
+			update_option( 'foogallery_tc_galleries', $imported_galleries );
+		}
+
 		$attachments = array();
 
 		//get the attachment ID's and set the attachment metadata
