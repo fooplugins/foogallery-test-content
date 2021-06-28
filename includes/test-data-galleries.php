@@ -5,7 +5,7 @@ return array(
 		'post_title'     => 'Test : Responsive : Basic',
 		'post_status'    => 'publish',
 		'post_type'      => FOOGALLERY_CPT_GALLERY,
-		'items'          => array( 'logo1_png', 'logo2_png', 'logo3_png', 'logo4_png', 'logo5_png', 'logo6_jpg' ),
+		'items'          => array( 'cat1_jpg', 'cat2_jpg', 'cat3_jpg', 'cat4_jpg', 'cat5_jpg', 'cat6_jpg' ),
 		'meta_input'     => array(
 			FOOGALLERY_META_TEMPLATE => 'default',
 			FOOGALLERY_META_SETTINGS => array(
@@ -67,7 +67,8 @@ return array(
 		'post_title'     => 'Test : Responsive : Paging',
 		'post_status'    => 'publish',
 		'post_type'      => FOOGALLERY_CPT_GALLERY,
-		'items'          => array( 'logo1_png', 'logo2_png', 'logo3_png', 'logo4_png', 'logo5_png', 'logo6_jpg' ),
+		'items'          => array( 'logo1_png', 'logo2_png', 'logo3_png', 'logo4_png', 'logo5_png', 'logo6_jpg', 
+								'cat1_jpg', 'cat2_jpg', 'cat3_jpg', 'cat4_jpg', 'cat5_jpg', 'cat6_jpg' ),
 		'meta_input'     => array(
 			FOOGALLERY_META_TEMPLATE => 'default',
 			FOOGALLERY_META_SETTINGS => array(
@@ -114,7 +115,8 @@ return array(
 				'default_lazyload'                        => '',
 
 				'default_paging_type'                     => 'dots',
-				'default_paging_size'                     => 2,
+				'default_paging_size'                     => 4,
+				'default_paging_position'				  => 'bottom',
 
 				'default_state'                           => 'no',
 
@@ -129,7 +131,7 @@ return array(
 		'post_title'     => 'Test : Responsive : Filtering',
 		'post_status'    => 'publish',
 		'post_type'      => FOOGALLERY_CPT_GALLERY,
-		'items'          => array( 'logo1_png', 'logo2_png', 'logo3_png', 'logo4_png', 'logo5_png', 'logo6_jpg' ),
+		'items'          => array( 'cat1_jpg', 'cat2_jpg', 'cat3_jpg', 'cat4_jpg', 'cat5_jpg', 'cat6_jpg' ),
 		'meta_input'     => array(
 			FOOGALLERY_META_TEMPLATE => 'default',
 			FOOGALLERY_META_SETTINGS => array(
@@ -192,7 +194,7 @@ return array(
 		'post_title'     => 'Test : Responsive : Paging + Filtering',
 		'post_status'    => 'publish',
 		'post_type'      => FOOGALLERY_CPT_GALLERY,
-		'items'          => array( 'logo1_png', 'logo2_png', 'logo3_png', 'logo4_png', 'logo5_png', 'logo6_jpg' ),
+		'items'          => array( 'cat1_jpg', 'cat2_jpg', 'cat3_jpg', 'cat4_jpg', 'cat5_jpg', 'cat6_jpg'),
 		'meta_input'     => array(
 			FOOGALLERY_META_TEMPLATE => 'default',
 			FOOGALLERY_META_SETTINGS => array(

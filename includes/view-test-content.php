@@ -62,7 +62,6 @@ if ( isset( $_POST['foogallery_test_content_generate'] ) ) {
 
 	<div class="foogallery-help">
 		<?php _e( 'You are able to generate test images and galleries that can be used to test the different FooGallery scenarios.', 'foogallery_tc' ); ?>
-		<?php printf( __( 'Some test images are provided by %s', 'foogallery_tc' ), '<a href="https://pixabay.com/" target="_blank">Pixabay</a>.' ); ?>
 	</div>
 
 	<br /><br />

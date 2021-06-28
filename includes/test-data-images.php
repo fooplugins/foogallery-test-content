@@ -1,9 +1,79 @@
 <?php
 
 return array(
+// cats folder
+	array(
+		'key' => 'cat1_jpg',
+		'url' => FOOGALLERY_TC_URL . '/images/cats/cat1.jpg',
+		'title'     => 'Cat 1',
+		'caption'    => 'Cute cat',
+		'desc'      => 'Cute Cat In A Hut',
+		'alt' => 'Cat 1 ALT',
+		//'mime_type' => 'image/png',
+		'tags' => array( 'Domestic' ),
+		'categories' => array( 'Category1', 'Category3' )
+	),
+	array(
+		'key' => 'cat2_jpg',
+		'url' => FOOGALLERY_TC_URL . '/images/cats/cat2.jpg',
+		'title'     => 'Cat 2',
+		'caption'    => 'Lions',
+		'desc'      => 'Lion resting after a hunt',
+		'alt' => 'Cat 2 ALT',
+		//'mime_type' => 'image/png',
+		'tags' => array( 'Wild','Lion' ),
+		'categories' => array( 'Category1', 'Category3' )
+	),
+	array(
+		'key' => 'cat3_jpg',
+		'url' => FOOGALLERY_TC_URL . '/images/cats/cat3.jpg',
+		'title'     => 'Cat 3',
+		'caption'    => 'Leopard',
+		'desc'      => 'Leopard or cheeter?',
+		'alt' => 'Cat 3 ALT',
+		//'mime_type' => 'image/png',
+		'tags' => array( 'Wild' ),
+		'categories' => array( 'Category2', 'Category3' )
+	),
+	array(
+		'key' => 'cat4_jpg',
+		'url' => FOOGALLERY_TC_URL . '/images/cats/cat4.jpg',
+		'title'     => 'Cat 4',
+		'caption'    => 'Tiger',
+		'desc'      => 'Tiger with sharp teeth',
+		'alt' => 'Cat 4 ALT',
+		//'mime_type' => 'image/png',
+		'tags' => array( 'Tiger','Wild' ),
+		'categories' => array( 'Category2', 'Category3' )
+	),
+	array(
+		'key' => 'cat5_jpg',
+		'url' => FOOGALLERY_TC_URL . '/images/cats/cat5.jpg',
+		'title'     => 'Cat 5',
+		'caption'    => 'Snowy Tiger',
+		'desc'      => 'Snowy tiger looking back',
+		'alt' => 'Cat 5 ALT',
+		//'mime_type' => 'image/png',
+		'tags' => array( 'Tiger','Wild' ),
+		'categories' => array( 'Category3' )
+	),
+	array(
+		'key' => 'cat6_jpg',
+		'url' => FOOGALLERY_TC_URL . '/images/cats/cat6.jpg',
+		'title'     => 'Cat 6',
+		'caption'    => 'Pride of Lions',
+		'desc'      => 'Lions going to hunt',
+		'alt' => 'Cat 6 ALT',
+		//'mime_type' => 'image/png',
+		'tags' => array( 'Lion','Wild' ),
+		'categories' => array( 'Category3' )
+	),
+
+
+// naruto folder
 	array(
 		'key' => 'logo1_png',
-		'url' => FOOGALLERY_TC_URL . '/images/logo1.png',
+		'url' => FOOGALLERY_TC_URL . '/images/naruto/logo1.jpg',
 		'title'     => 'Logo 1',
 		'caption'    => 'Logo 1 Caption',
 		'desc'      => 'Logo 1 Caption Description',
@@ -14,7 +84,7 @@ return array(
 	),
 	array(
 		'key' => 'logo2_png',
-		'url' => FOOGALLERY_TC_URL . '/images/logo2.png',
+		'url' => FOOGALLERY_TC_URL . '/images/naruto/logo2.jpg',
 		'title'     => 'Logo 2',
 		'caption'    => 'Logo 2 Caption',
 		'desc'      => 'Logo 2 Caption Description',
@@ -25,7 +95,7 @@ return array(
 	),
 	array(
 		'key' => 'logo3_png',
-		'url' => FOOGALLERY_TC_URL . '/images/logo3.png',
+		'url' => FOOGALLERY_TC_URL . '/images/naruto/logo3.jpg',
 		'title'     => 'Logo 3',
 		'caption'    => 'Logo 3 Caption',
 		'desc'      => 'Logo 3 Caption Description',
@@ -36,7 +106,7 @@ return array(
 	),
 	array(
 		'key' => 'logo4_png',
-		'url' => FOOGALLERY_TC_URL . '/images/logo4.png',
+		'url' => FOOGALLERY_TC_URL . '/images/naruto/logo4.jpg',
 		'title'     => 'Logo 4',
 		'caption'    => 'Logo 4 Caption',
 		'desc'      => 'Logo 4 Caption Description',
@@ -47,7 +117,7 @@ return array(
 	),
 	array(
 		'key' => 'logo5_png',
-		'url' => FOOGALLERY_TC_URL . '/images/logo5.png',
+		'url' => FOOGALLERY_TC_URL . '/images/naruto/logo5.jpg',
 		'title'     => 'Logo 5',
 		'caption'    => 'Logo 5 Caption',
 		'desc'      => 'Logo 5 Caption Description',
@@ -58,7 +128,7 @@ return array(
 	),
 	array(
 		'key' => 'logo6_jpg',
-		'url' => FOOGALLERY_TC_URL . '/images/logo6.jpg',
+		'url' => FOOGALLERY_TC_URL . '/images/naruto/logo6.jpg',
 		'title'     => 'Logo 6',
 		'caption'    => 'Logo 6 Caption',
 		'desc'      => 'Logo 6 Caption Description',
@@ -67,6 +137,8 @@ return array(
 		'tags' => array( 'Tag1', 'Tag2', 'Tag3', 'Tag4', 'Tag5', 'Tag6', 'Tag7', 'Tag8', 'Tag9' ),
 		'categories' => array( 'Category1', 'Category2', 'Category3' )
 	),
+
+//EXIF images
 	array(
 		'key' => 'exif-test1',
 		'url' => FOOGALLERY_TC_URL . '/images/exif-test1.jpg',
